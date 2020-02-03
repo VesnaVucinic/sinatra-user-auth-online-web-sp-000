@@ -12,19 +12,26 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2) do
 =======
 ActiveRecord::Schema.define(version: 1) do
 >>>>>>> 9d4c972a7fa58b9f3c8dd23f85c2735068bbddf6
+=======
+ActiveRecord::Schema.define(version: 1) do
+>>>>>>> b1c4f4fd2424288921e5dd6898fade981e39448f
 
   create_table "users", force: :cascade do |t|
     t.string  "name"
     t.string  "email"
     t.integer "pasword"
 <<<<<<< HEAD
+<<<<<<< HEAD
     t.string  "password"
 =======
 >>>>>>> 9d4c972a7fa58b9f3c8dd23f85c2735068bbddf6
+=======
+>>>>>>> b1c4f4fd2424288921e5dd6898fade981e39448f
   end
 
 end
